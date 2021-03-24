@@ -115,6 +115,20 @@ removeElementsByClass('popup');
 
 Aliases: `remEleByCla` `rebc`
 
+### shortenLargeNumber
+
+Shorten large number similar to youtube views.
+
+```js
+import { shortenLargeNumber } from 'recurring-functions';
+
+shortenLargeNumber(300000);
+
+// output: 300k
+```
+
+Aliases: `shoLarNum` `sln`
+
 ## Test
 
 If you want to test the functions run the test command
