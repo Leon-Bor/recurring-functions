@@ -9,3 +9,4 @@ export * from "./functions/distanceGeoPoints";
 export * from "./functions/mergeArraysByKey";
 export * from "./functions/randomNumberBetween";
 export * from "./functions/removeElementsByClass";
+export * from "./functions/shortenLargeNumber";
