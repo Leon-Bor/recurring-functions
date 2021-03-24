@@ -2,7 +2,7 @@
 
 /**
  * add value to array if the value does not exists (no objects)
- * (property).
+ *
  * @param {*[]} [arr]
  * @param {string | number | boolea} [obj]
  * @returns {*[]}

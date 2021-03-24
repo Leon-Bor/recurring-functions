@@ -1,8 +1,8 @@
 'use strict';
 
 /**
- * removes items from dom by class name
- * (property).
+ * Removes items from dom by class name. Requires: `document`, works only in browsers.
+ *
  * @param {string} [className]
  */
 export function removeElementsByClass(className: string) {

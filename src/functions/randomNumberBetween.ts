@@ -2,7 +2,7 @@
 
 /**
  * get a random number between 2 numbers
- * (property).
+ *
  * @param { number } [min]
  * @param { number } [max]
  * @returns {number}

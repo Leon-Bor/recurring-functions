@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && npm run generate-barrels && tsc",
     "generate-barrels": "barrelsby -d ./src/ -D",
-    "clean": "rm -rf ./dist",
+    "clean": "rm -rf ./dist .tsbuildinfo",
     "docs": "typedoc",
     "git": "git add -A && git commit -m 'Auto publish/commit' && git pull && npm version patch && git push"
   },
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/Leon-Bor/recurring-functions#readme",
   "devDependencies": {
     "barrelsby": "^2.2.0"
+  },
+  "dependencies": {
+    "typescript": "^4.2.3"
   }
 }

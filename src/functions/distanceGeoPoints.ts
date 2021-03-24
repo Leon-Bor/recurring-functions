@@ -5,7 +5,7 @@
  * latitude/longitude of those points). It is being used to calculate
  * the distance between two locations using GeoDataSource (TM) products
  *
- *  where: 'M' is statute miles (default)
+ *  unit:  'M' is statute miles (default)
  *         'K' is kilometers
  *         'N' is nautical miles
  *
@@ -16,6 +16,7 @@
  * @param {number} [lat2]
  * @param {number} [lon2]
  * @param {'M' | 'K' | 'N'} [unit]
+ * @returns {number} number in miles (M) ,kilometers (K) or nautical miles (N)
  */
 function distanceGeoPoints(lat1: number, lon1: number, lat2: number, lon2: number, unit: 'M' | 'K' | 'N') {
   if (lat1 == lat2 && lon1 == lon2) {

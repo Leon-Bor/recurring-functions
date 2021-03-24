@@ -2,7 +2,7 @@
 
 /**
  * Merges two or more arrays of objects into a single array by merging objects with the same key
- * (property).
+ *
  * @param {string} [key]
  * @param {...*[]} [arrays]
  * @returns {*[]}
