@@ -1,6 +1,6 @@
 # Recurring functions
 
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/Leon-Bor/recurring-functions/main>.svg?style=flat-square)](https://codecov.io/gh/Leon-Bor/recurring-functions/)
+[![codecov](https://codecov.io/gh/Leon-Bor/recurring-functions/branch/main/graph/badge.svg?token=5XX3OQKOBM)](https://codecov.io/gh/Leon-Bor/recurring-functions)
 
 Recurring functions that are usually found and used on Stackoverflow or other code sharing websites. Exported function are not minified so please use a minifier/bundler if you use any.
 
