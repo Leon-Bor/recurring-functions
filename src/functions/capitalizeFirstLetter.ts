@@ -3,6 +3,7 @@
 /**
  * Capitalize the first letter of a string / text
  *
+ * Aliases: capitalizeFirstLetter, capFirLet, cfl
  *
  * Credits: https://stackoverflow.com/a/1026087
  *

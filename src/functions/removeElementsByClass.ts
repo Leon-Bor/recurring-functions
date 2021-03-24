@@ -3,6 +3,8 @@
 /**
  * Removes items from dom by class name. Requires: `document`, works only in browsers.
  *
+ * Aliases: removeElementsByClass, remEleByCla, rebc
+ *
  * @param {string} [className]
  */
 export function removeElementsByClass(className: string) {

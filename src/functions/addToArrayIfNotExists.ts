@@ -3,6 +3,8 @@
 /**
  * add value to array if the value does not exists (no objects)
  *
+ * Aliases: addToArrayIfNotExists, addToArrIfNotExi, ataine
+ *
  * @param {*[]} [arr]
  * @param {string | number | boolea} [obj]
  * @returns {*[]}

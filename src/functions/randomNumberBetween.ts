@@ -3,6 +3,8 @@
 /**
  * get a random number between 2 numbers
  *
+ * Aliases: randomNumberBetween, radNumBet, rnb
+ *
  * @param { number } [min]
  * @param { number } [max]
  * @returns {number}

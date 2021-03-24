@@ -2,6 +2,9 @@
 
 /**
  * Deep copy of object or array
+ *
+ * Aliases: deepCopy, deeCop, dc
+ *
  * @param {Object} [obj]
  * @returns {Object}
  */

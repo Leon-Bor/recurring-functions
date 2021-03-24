@@ -3,6 +3,8 @@
 /**
  * Shorten large number like youtube views
  *
+ * Aliases: shortenLargeNumber, shoLarNum, sln
+ *
  * @param {number} [num]
  * @param {string} [separator]  choose what to use as dot
  * @param {boolean} [space] add space after number

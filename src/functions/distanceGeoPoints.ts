@@ -9,6 +9,8 @@
  *         'K' is kilometers
  *         'N' is nautical miles
  *
+ * Aliases: distanceGeoPoints, disGeoPoi, dgp
+ *
  * Credits: https://stackoverflow.com/a/60465578
  *
  * @param {number} [lat1]

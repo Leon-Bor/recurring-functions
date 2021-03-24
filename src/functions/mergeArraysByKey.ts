@@ -3,11 +3,13 @@
 /**
  * Merges two or more arrays of objects into a single array by merging objects with the same key
  *
+ * Aliases: mergeArraysByKey, merArrByKey, mabk
+ *
  * @param {string} [key]
- * @param {...*[]} [arrays]
+ * @param {...*[]} [arr] arrays with objects
  * @returns {*[]}
  */
-export function mergeArraysByKey(key: string, arr1: any[] = [], arr2: any[] = [], ...arr3: any[]) {
+export function mergeArraysByKey(key: string, ...arr: any[]) {
   const array = [];
   const groups = new Map(); // key => [pos in array, [array, of, objects, with, the, same, key]]
 
