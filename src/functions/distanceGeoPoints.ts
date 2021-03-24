@@ -20,7 +20,7 @@
  * @param {'M' | 'K' | 'N'} [unit]
  * @returns {number} number in miles (M) ,kilometers (K) or nautical miles (N)
  */
-function distanceGeoPoints(lat1: number, lon1: number, lat2: number, lon2: number, unit: 'M' | 'K' | 'N') {
+export function distanceGeoPoints(lat1: number, lon1: number, lat2: number, lon2: number, unit: 'M' | 'K' | 'N') {
   if (lat1 == lat2 && lon1 == lon2) {
     return 0;
   } else {

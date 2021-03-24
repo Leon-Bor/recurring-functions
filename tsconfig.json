@@ -70,7 +70,7 @@
     "strictNullChecks": true,
     "suppressExcessPropertyErrors": false,
     "suppressImplicitAnyIndexErrors": false,
-    "target": "es2018",
+    "target": "es5",
     "traceResolution": false,
     "tsBuildInfoFile": ".tsbuildinfo",
     "watch": false,

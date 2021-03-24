@@ -8,12 +8,14 @@
     "/dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "coverage": "jest --coverage",
     "build": "npm run clean && npm run generate-barrels && tsc",
     "generate-barrels": "barrelsby -d ./src/ -D",
     "clean": "rm -rf ./dist .tsbuildinfo",
     "docs": "typedoc",
-    "git": "git add -A && git commit -m 'Auto publish/commit' && git pull && npm version patch && git push"
+    "git": "git add -A && git commit -m 'Auto publish/commit' && git pull && npm version patch && git push",
+    "report": "./node_modules/.bin/codecov --token='<Your token>'"
   },
   "repository": {
     "type": "git",
@@ -31,7 +33,15 @@
   },
   "homepage": "https://github.com/Leon-Bor/recurring-functions#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.21",
     "barrelsby": "^2.2.0",
+    "codecov": "^3.8.1",
+    "jasmine": "^3.7.0",
+    "jest": "^26.6.3",
+    "nyc": "^15.1.0",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
-  }
+  },
+  "dependencies": {}
 }
