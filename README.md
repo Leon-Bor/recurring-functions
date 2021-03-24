@@ -10,7 +10,7 @@ Recurring functions that are usually found and used on Stackoverflow or other co
 npm i recurring-functions
 ```
 
-## Function
+## Functions
 
 Function names and there aliases are unique. They also documented for autocompletion with typedoc.
 More information or credits can be found in each function.

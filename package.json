@@ -27,9 +27,7 @@
   },
   "homepage": "https://github.com/Leon-Bor/recurring-functions#readme",
   "devDependencies": {
-    "barrelsby": "^2.2.0"
-  },
-  "dependencies": {
+    "barrelsby": "^2.2.0",
     "typescript": "^4.2.3"
   }
 }
