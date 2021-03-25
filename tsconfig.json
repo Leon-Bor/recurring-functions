@@ -3,7 +3,9 @@
     "lib": ["es2018", "dom"],
     "outDir": "dist",
     "module": "commonjs",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "declaration": true
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./src/**/*.test.ts"]
 }

@@ -5,7 +5,5 @@ node_modules
 .editorconfig
 .prettierrc
 .tsbuildinfo
-/dist/functions/*.test.d.ts
-/dist/functions/*.test.js
 README.md
 barrelsby.json
