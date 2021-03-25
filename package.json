@@ -1,6 +1,6 @@
 {
   "name": "recurring-functions",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Collection of recurring javascript / typescript functions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "build": "npm run clean && npm run generate-barrels && tsc",
-    "generate-barrels": "barrelsby -d ./src/ -D",
+    "generate-barrels": "barrelsby --config barrelsby.json",
     "clean": "rm -rf ./dist .tsbuildinfo",
     "docs": "typedoc",
     "git": "git add -A && git commit -m 'Auto publish/commit' && git pull && npm version patch && git push",
