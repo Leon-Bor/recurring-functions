@@ -131,6 +131,26 @@ shortenLargeNumber(300000);
 
 Aliases: `shoLarNum` `sln`
 
+### sleep
+
+Function for testing e.g. loading time in a async function.
+
+```js
+import { sleep } from 'recurring-functions';
+
+async function test() {
+  const date = new Date().getTime();
+  await sleep(1000);
+  return new Date().getTime() - date >= 1000 ? true : false;
+}
+
+test();
+
+// output: true
+```
+
+Aliases: `sle` `s`
+
 ## Test
 
 If you want to test the functions run the test command

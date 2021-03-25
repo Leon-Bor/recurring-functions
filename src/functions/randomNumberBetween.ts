@@ -7,7 +7,7 @@
  *
  * @param { number } [min]
  * @param { number } [max]
- * @returns {number}
+ * @returns {number} a float number between min and max
  */
 export function randomNumberBetween(min: number, max: number) {
   min = Math.ceil(min);
